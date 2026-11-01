@@ -1,0 +1,12 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*secret*
+node_modules/
+coverage/
+dist/
+*.zip

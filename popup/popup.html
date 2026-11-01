@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Webtoon Çevirmen</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <h1>Webtoon Çevirmen <span class="tag">EN → TR</span></h1>
+    <label class="switch" title="Eklentiyi tamamen aç/kapat">
+      <input type="checkbox" id="master" />
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <section id="siteCard" class="card">
+    <div class="label">Bu sayfa</div>
+    <div id="siteHost" class="host">—</div>
+    <div id="siteMsg" class="muted"></div>
+    <div class="row">
+      <button id="btnSite" class="primary">Bu siteyi ekle</button>
+      <label id="siteEnabledWrap" class="check" hidden>
+        <input type="checkbox" id="siteEnabled" /> Bu sitede çalış
+      </label>
+    </div>
+  </section>
+
+  <section id="pageCard" class="card" hidden>
+    <div class="label">Çeviri durumu</div>
+    <div id="pageStatus" class="status">—</div>
+    <div class="row wrap">
+      <button id="btnAfk" class="primary" title="Sayfayı otomatik kaydırıp çevirir, tamamlanınca Next bölümüne geçer">AFK modunu başlat</button>
+      <button id="btnAfkReturn" hidden>AFK başlangıç bölümüne dön</button>
+      <button id="btnToggle">Çeviriyi gizle</button>
+      <button id="btnRescan" title="Önbelleği yok sayıp sayfadaki tüm görselleri yeniden çevirir (API isteği harcar)">Yeniden çevir</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="label">Sağlayıcı</div>
+    <div id="provider" class="status">—</div>
+    <div id="usage" class="muted"></div>
+    <div id="pace" class="muted"></div>
+    <div id="warn" class="warn" hidden></div>
+  </section>
+
+  <footer>
+    <a href="#" id="openOptions">⚙ Ayarlar</a>
+    <span class="muted">Kısayol: Alt+T</span>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

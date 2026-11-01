@@ -111,4 +111,3 @@ Ses efektleri ve çizimin parçası olan yazılar (defterdeki el yazısı, tabel
 2. Eklenti simgesi → Sağlayıcı bölümü: "⏳ Dakikalık sınır: ~N sn bekleniyor" yazıyorsa Gemini ücretsiz katmanının **dakikadaki istek sınırına** takılmışsınız demektir. Eklenti bu durumda tüm kuyruğu soğutur ve istek aralığını otomatik büyütür (12 → 24 → 60 sn). Sınır düşükse bir bölüm uzun sürer; bu eklentinin değil ücretsiz katmanın sınırıdır.
 3. Ayarlar → **7 · Tanılama**: son istekleri, hata kodlarını ve sürelerini gösterir. Kendi limitlerinizi AI Studio → Rate limit sayfasından görün.
 4. Hızı artırmak için Ayarlar'da istekler arası süreyi düşürebilirsiniz; Google'ın dakikalık kotası aşılırsa eklenti kuyruğu otomatik yavaşlatır.
-

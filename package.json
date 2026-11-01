@@ -1,0 +1,13 @@
+{
+  "name": "webtoon-translator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome eklentisi: webtoon görsellerini EN -> TR çevirir. (package.json yalnızca testleri çalıştırmak içindir.)",
+  "scripts": {
+    "test": "node --test tests/unit.test.mjs"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.0.0"
+  }
+}
